@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E06A1E01D334558000CAC38 /* music_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1D61D334558000CAC38 /* music_list.png */; };
+		0E06A1E11D334558000CAC38 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1D71D334558000CAC38 /* next.png */; };
+		0E06A1E21D334558000CAC38 /* no_repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1D81D334558000CAC38 /* no_repeat.png */; };
+		0E06A1E31D334558000CAC38 /* play_shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1D91D334558000CAC38 /* play_shuffle.png */; };
+		0E06A1E41D334558000CAC38 /* player-track-like-love-music.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DA1D334558000CAC38 /* player-track-like-love-music.png */; };
+		0E06A1E51D334558000CAC38 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DB1D334558000CAC38 /* previous.png */; };
+		0E06A1E61D334558000CAC38 /* Repeat_Once.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DC1D334558000CAC38 /* Repeat_Once.png */; };
+		0E06A1E71D334558000CAC38 /* repeat-current.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DD1D334558000CAC38 /* repeat-current.png */; };
+		0E06A1E81D334558000CAC38 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DE1D334558000CAC38 /* settings.png */; };
+		0E06A1E91D334558000CAC38 /* sleep-reminder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1DF1D334558000CAC38 /* sleep-reminder.png */; };
+		0E06A1EC1D3354BC000CAC38 /* Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1EA1D3354BC000CAC38 /* Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3 */; };
+		0E06A1ED1D3354BC000CAC38 /* Sugar - Maroon 5 [MP3 128kbps].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1EB1D3354BC000CAC38 /* Sugar - Maroon 5 [MP3 128kbps].mp3 */; };
+		0E06A1F01D33857B000CAC38 /* alan-walker-faded .png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1EE1D33857B000CAC38 /* alan-walker-faded .png */; };
+		0E06A1F11D33857B000CAC38 /* Maroon_5_Sugar_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1EF1D33857B000CAC38 /* Maroon_5_Sugar_cover.png */; };
+		0E06A1F31D339D0E000CAC38 /* love-music-hightlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1F21D339D0E000CAC38 /* love-music-hightlight.png */; };
+		0E06A1F51D33A0C8000CAC38 /* sleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1F41D33A0C8000CAC38 /* sleeping.png */; };
+		0E06A1F81D33A643000CAC38 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1F61D33A643000CAC38 /* background.jpg */; };
+		0E06A1F91D33A643000CAC38 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E06A1F71D33A643000CAC38 /* background2.png */; };
+		0E22B9041D2F479F002AC3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B9031D2F479F002AC3C7 /* AppDelegate.swift */; };
+		0E22B9061D2F479F002AC3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22B9051D2F479F002AC3C7 /* ViewController.swift */; };
+		0E22B9091D2F479F002AC3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B9071D2F479F002AC3C7 /* Main.storyboard */; };
+		0E22B90B1D2F479F002AC3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B90A1D2F479F002AC3C7 /* Assets.xcassets */; };
+		0E22B90E1D2F479F002AC3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B90C1D2F479F002AC3C7 /* LaunchScreen.storyboard */; };
+		0E22B91E1D2F4A81002AC3C7 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B9161D2F4A81002AC3C7 /* duration.png */; };
+		0E22B91F1D2F4A81002AC3C7 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B9171D2F4A81002AC3C7 /* maxVolume.png */; };
+		0E22B9201D2F4A81002AC3C7 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B9181D2F4A81002AC3C7 /* miniVolume.png */; };
+		0E22B9211D2F4A81002AC3C7 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B9191D2F4A81002AC3C7 /* music.mp3 */; };
+		0E22B9221D2F4A81002AC3C7 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B91A1D2F4A81002AC3C7 /* pause.png */; };
+		0E22B9231D2F4A81002AC3C7 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B91B1D2F4A81002AC3C7 /* play.png */; };
+		0E22B9241D2F4A81002AC3C7 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B91C1D2F4A81002AC3C7 /* thumb.png */; };
+		0E22B9251D2F4A81002AC3C7 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E22B91D1D2F4A81002AC3C7 /* thumbHightLight.png */; };
+		0EB5C3501D3099EE00434E9F /* Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5C34F1D3099EE00434E9F /* Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3 */; };
+		0EB5C3521D30BE4C00434E9F /* justin-bieber-record.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5C3511D30BE4C00434E9F /* justin-bieber-record.png */; };
+		0EB5C3541D30BED800434E9F /* ZingMp3icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5C3531D30BED800434E9F /* ZingMp3icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E06A1D61D334558000CAC38 /* music_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_list.png; sourceTree = "<group>"; };
+		0E06A1D71D334558000CAC38 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		0E06A1D81D334558000CAC38 /* no_repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_repeat.png; sourceTree = "<group>"; };
+		0E06A1D91D334558000CAC38 /* play_shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_shuffle.png; sourceTree = "<group>"; };
+		0E06A1DA1D334558000CAC38 /* player-track-like-love-music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-track-like-love-music.png"; sourceTree = "<group>"; };
+		0E06A1DB1D334558000CAC38 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		0E06A1DC1D334558000CAC38 /* Repeat_Once.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeat_Once.png; sourceTree = "<group>"; };
+		0E06A1DD1D334558000CAC38 /* repeat-current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repeat-current.png"; sourceTree = "<group>"; };
+		0E06A1DE1D334558000CAC38 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		0E06A1DF1D334558000CAC38 /* sleep-reminder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-reminder.png"; sourceTree = "<group>"; };
+		0E06A1EA1D3354BC000CAC38 /* Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3"; sourceTree = "<group>"; };
+		0E06A1EB1D3354BC000CAC38 /* Sugar - Maroon 5 [MP3 128kbps].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sugar - Maroon 5 [MP3 128kbps].mp3"; sourceTree = "<group>"; };
+		0E06A1EE1D33857B000CAC38 /* alan-walker-faded .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alan-walker-faded .png"; sourceTree = "<group>"; };
+		0E06A1EF1D33857B000CAC38 /* Maroon_5_Sugar_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maroon_5_Sugar_cover.png; sourceTree = "<group>"; };
+		0E06A1F21D339D0E000CAC38 /* love-music-hightlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love-music-hightlight.png"; sourceTree = "<group>"; };
+		0E06A1F41D33A0C8000CAC38 /* sleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeping.png; sourceTree = "<group>"; };
+		0E06A1F61D33A643000CAC38 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		0E06A1F71D33A643000CAC38 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		0E22B9001D2F479F002AC3C7 /* NVHiTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVHiTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E22B9031D2F479F002AC3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E22B9051D2F479F002AC3C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E22B9081D2F479F002AC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E22B90A1D2F479F002AC3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E22B90D1D2F479F002AC3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E22B90F1D2F479F002AC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E22B9161D2F4A81002AC3C7 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		0E22B9171D2F4A81002AC3C7 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		0E22B9181D2F4A81002AC3C7 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		0E22B9191D2F4A81002AC3C7 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		0E22B91A1D2F4A81002AC3C7 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		0E22B91B1D2F4A81002AC3C7 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		0E22B91C1D2F4A81002AC3C7 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		0E22B91D1D2F4A81002AC3C7 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		0EB5C34F1D3099EE00434E9F /* Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3"; sourceTree = "<group>"; };
+		0EB5C3511D30BE4C00434E9F /* justin-bieber-record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "justin-bieber-record.png"; sourceTree = "<group>"; };
+		0EB5C3531D30BED800434E9F /* ZingMp3icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZingMp3icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E22B8FD1D2F479F002AC3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E22B8F71D2F479F002AC3C7 = {
+			isa = PBXGroup;
+			children = (
+				0E22B9021D2F479F002AC3C7 /* NVHiTunes */,
+				0E22B9011D2F479F002AC3C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E22B9011D2F479F002AC3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B9001D2F479F002AC3C7 /* NVHiTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E22B9021D2F479F002AC3C7 /* NVHiTunes */ = {
+			isa = PBXGroup;
+			children = (
+				0E22B9151D2F4A28002AC3C7 /* Resource */,
+				0E22B9031D2F479F002AC3C7 /* AppDelegate.swift */,
+				0E22B9051D2F479F002AC3C7 /* ViewController.swift */,
+				0E22B9071D2F479F002AC3C7 /* Main.storyboard */,
+				0E22B90A1D2F479F002AC3C7 /* Assets.xcassets */,
+				0E22B90C1D2F479F002AC3C7 /* LaunchScreen.storyboard */,
+				0E22B90F1D2F479F002AC3C7 /* Info.plist */,
+			);
+			path = NVHiTunes;
+			sourceTree = "<group>";
+		};
+		0E22B9151D2F4A28002AC3C7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0ECF0E5D1D348D1E000880D8 /* Images */,
+				0ECF0E5C1D348D01000880D8 /* Sounds */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0ECF0E5C1D348D01000880D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5C34F1D3099EE00434E9F /* Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3 */,
+				0E06A1EA1D3354BC000CAC38 /* Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3 */,
+				0E06A1EB1D3354BC000CAC38 /* Sugar - Maroon 5 [MP3 128kbps].mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		0ECF0E5D1D348D1E000880D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E06A1F61D33A643000CAC38 /* background.jpg */,
+				0E06A1F71D33A643000CAC38 /* background2.png */,
+				0E06A1F41D33A0C8000CAC38 /* sleeping.png */,
+				0E06A1F21D339D0E000CAC38 /* love-music-hightlight.png */,
+				0E06A1EE1D33857B000CAC38 /* alan-walker-faded .png */,
+				0E06A1EF1D33857B000CAC38 /* Maroon_5_Sugar_cover.png */,
+				0E06A1D61D334558000CAC38 /* music_list.png */,
+				0E06A1D71D334558000CAC38 /* next.png */,
+				0E06A1D81D334558000CAC38 /* no_repeat.png */,
+				0E06A1D91D334558000CAC38 /* play_shuffle.png */,
+				0E06A1DA1D334558000CAC38 /* player-track-like-love-music.png */,
+				0E06A1DB1D334558000CAC38 /* previous.png */,
+				0E06A1DC1D334558000CAC38 /* Repeat_Once.png */,
+				0E06A1DD1D334558000CAC38 /* repeat-current.png */,
+				0E06A1DE1D334558000CAC38 /* settings.png */,
+				0E06A1DF1D334558000CAC38 /* sleep-reminder.png */,
+				0EB5C3531D30BED800434E9F /* ZingMp3icon.png */,
+				0EB5C3511D30BE4C00434E9F /* justin-bieber-record.png */,
+				0E22B9161D2F4A81002AC3C7 /* duration.png */,
+				0E22B9171D2F4A81002AC3C7 /* maxVolume.png */,
+				0E22B9181D2F4A81002AC3C7 /* miniVolume.png */,
+				0E22B9191D2F4A81002AC3C7 /* music.mp3 */,
+				0E22B91A1D2F4A81002AC3C7 /* pause.png */,
+				0E22B91B1D2F4A81002AC3C7 /* play.png */,
+				0E22B91C1D2F4A81002AC3C7 /* thumb.png */,
+				0E22B91D1D2F4A81002AC3C7 /* thumbHightLight.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E22B8FF1D2F479F002AC3C7 /* NVHiTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E22B9121D2F479F002AC3C7 /* Build configuration list for PBXNativeTarget "NVHiTunes" */;
+			buildPhases = (
+				0E22B8FC1D2F479F002AC3C7 /* Sources */,
+				0E22B8FD1D2F479F002AC3C7 /* Frameworks */,
+				0E22B8FE1D2F479F002AC3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVHiTunes;
+			productName = NVHiTunes;
+			productReference = 0E22B9001D2F479F002AC3C7 /* NVHiTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E22B8F81D2F479F002AC3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MobileSoftware;
+				TargetAttributes = {
+					0E22B8FF1D2F479F002AC3C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E22B8FB1D2F479F002AC3C7 /* Build configuration list for PBXProject "NVHiTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E22B8F71D2F479F002AC3C7;
+			productRefGroup = 0E22B9011D2F479F002AC3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E22B8FF1D2F479F002AC3C7 /* NVHiTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E22B8FE1D2F479F002AC3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E22B9241D2F4A81002AC3C7 /* thumb.png in Resources */,
+				0E06A1E91D334558000CAC38 /* sleep-reminder.png in Resources */,
+				0E06A1F01D33857B000CAC38 /* alan-walker-faded .png in Resources */,
+				0E06A1E01D334558000CAC38 /* music_list.png in Resources */,
+				0E06A1E41D334558000CAC38 /* player-track-like-love-music.png in Resources */,
+				0EB5C3541D30BED800434E9F /* ZingMp3icon.png in Resources */,
+				0E22B90E1D2F479F002AC3C7 /* LaunchScreen.storyboard in Resources */,
+				0E06A1E61D334558000CAC38 /* Repeat_Once.png in Resources */,
+				0E06A1F31D339D0E000CAC38 /* love-music-hightlight.png in Resources */,
+				0E22B91E1D2F4A81002AC3C7 /* duration.png in Resources */,
+				0E06A1F51D33A0C8000CAC38 /* sleeping.png in Resources */,
+				0E22B9231D2F4A81002AC3C7 /* play.png in Resources */,
+				0E22B9221D2F4A81002AC3C7 /* pause.png in Resources */,
+				0E06A1EC1D3354BC000CAC38 /* Faded - Alan Walker_ Iselin Solheim [MP3 128kbps].mp3 in Resources */,
+				0E06A1E31D334558000CAC38 /* play_shuffle.png in Resources */,
+				0E22B9201D2F4A81002AC3C7 /* miniVolume.png in Resources */,
+				0EB5C3501D3099EE00434E9F /* Justin+Bieber+-+Beauty+And+A+Beat+(feat.+Nicki+Minaj)(music.naij.com).mp3 in Resources */,
+				0E22B9251D2F4A81002AC3C7 /* thumbHightLight.png in Resources */,
+				0E06A1E51D334558000CAC38 /* previous.png in Resources */,
+				0E06A1E11D334558000CAC38 /* next.png in Resources */,
+				0E06A1F91D33A643000CAC38 /* background2.png in Resources */,
+				0E06A1E21D334558000CAC38 /* no_repeat.png in Resources */,
+				0E22B91F1D2F4A81002AC3C7 /* maxVolume.png in Resources */,
+				0EB5C3521D30BE4C00434E9F /* justin-bieber-record.png in Resources */,
+				0E22B90B1D2F479F002AC3C7 /* Assets.xcassets in Resources */,
+				0E06A1F11D33857B000CAC38 /* Maroon_5_Sugar_cover.png in Resources */,
+				0E22B9211D2F4A81002AC3C7 /* music.mp3 in Resources */,
+				0E06A1F81D33A643000CAC38 /* background.jpg in Resources */,
+				0E06A1E81D334558000CAC38 /* settings.png in Resources */,
+				0E06A1ED1D3354BC000CAC38 /* Sugar - Maroon 5 [MP3 128kbps].mp3 in Resources */,
+				0E06A1E71D334558000CAC38 /* repeat-current.png in Resources */,
+				0E22B9091D2F479F002AC3C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E22B8FC1D2F479F002AC3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E22B9061D2F479F002AC3C7 /* ViewController.swift in Sources */,
+				0E22B9041D2F479F002AC3C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E22B9071D2F479F002AC3C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E22B9081D2F479F002AC3C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E22B90C1D2F479F002AC3C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E22B90D1D2F479F002AC3C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E22B9101D2F479F002AC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E22B9111D2F479F002AC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E22B9131D2F479F002AC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHiTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHiTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E22B9141D2F479F002AC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHiTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHiTunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E22B8FB1D2F479F002AC3C7 /* Build configuration list for PBXProject "NVHiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E22B9101D2F479F002AC3C7 /* Debug */,
+				0E22B9111D2F479F002AC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E22B9121D2F479F002AC3C7 /* Build configuration list for PBXNativeTarget "NVHiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E22B9131D2F479F002AC3C7 /* Debug */,
+				0E22B9141D2F479F002AC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E22B8F81D2F479F002AC3C7 /* Project object */;
+}
